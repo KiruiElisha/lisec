@@ -215,21 +215,27 @@ scheduler_events = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-user_data_fields = [
+
+
+fixtures = [
     {
-        "doctype": "{doctype_1}",
-        "filter_by": "{filter_by}",
-        "redact_fields": ["{field_1}", "{field_2}"],
-        "partial": 1,
+        "dt": "DocType",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Lisec"
+            ]
+        ]
     },
     {
-        "doctype": "{doctype_2}",
-        "filter_by": "{filter_by}",
-        "partial": 1,
-    },
-    {
-        "doctype": "{doctype_3}",
-        "strict": False,
-    },
-    {"doctype": "{doctype_4}"},
+        "dt": "Client Script",
+        "filters": [
+            [
+                "module",
+                "=",
+                "Lisec"
+            ]
+        ]
+    }
 ]
