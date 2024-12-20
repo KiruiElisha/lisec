@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-11 19:01:10.970957",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lisec_field",
+  "column_break_2",
+  "erpnext_field",
+  "erp_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "lisec_field",
+   "fieldtype": "Link",
+   "label": "Lisec Field",
+   "options": "Lisec Taxes"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "lisec_field.erp_field",
+   "fieldname": "erpnext_field",
+   "fieldtype": "Link",
+   "label": "ERPNext Field",
+   "options": "ERP Taxes"
+  },
+  {
+   "fetch_from": "lisec_field.erp_field",
+   "fieldname": "erp_field",
+   "fieldtype": "Data",
+   "label": "ERP Field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-06 20:10:14.585843",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec ERP Map Taxes",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

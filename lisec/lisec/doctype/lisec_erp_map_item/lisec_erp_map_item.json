@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-11 18:57:16.685546",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lisec_field",
+  "column_break_2",
+  "erp_field",
+  "column_break_4",
+  "erpnext_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "lisec_field",
+   "fieldtype": "Link",
+   "label": "Lisec Field",
+   "options": "Lisec Items"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "lisec_field.erp_field",
+   "fieldname": "erpnext_field",
+   "fieldtype": "Link",
+   "label": "ERPNext Field",
+   "options": "ERP Item"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "lisec_field.erp_field",
+   "fieldname": "erp_field",
+   "fieldtype": "Data",
+   "label": "ERP Field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-06 20:09:40.271646",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec ERP Map Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

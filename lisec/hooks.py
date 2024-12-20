@@ -130,26 +130,14 @@ app_license = "mit"
 # 	}
 # }
 
-# Scheduled Tasks
-# ---------------
-
-# scheduler_events = {
-# 	"all": [
-# 		"lisec.tasks.all"
-# 	],
-# 	"daily": [
-# 		"lisec.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"lisec.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"lisec.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"lisec.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+    "cron": {
+        "*/5 * * * *": [
+            "lisec.lisec.doctype.lisec_integration_tool.lisec_integration_tool.lisec_job_scheduler",
+            "lisec.lisec.doctype.lisec_integration_tool.lisec_integration_tool.lisec_history_job_scheduler"
+        ]
+    }
+}
 
 # Testing
 # -------
@@ -227,3 +215,21 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+user_data_fields = [
+    {
+        "doctype": "{doctype_1}",
+        "filter_by": "{filter_by}",
+        "redact_fields": ["{field_1}", "{field_2}"],
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_2}",
+        "filter_by": "{filter_by}",
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_3}",
+        "strict": False,
+    },
+    {"doctype": "{doctype_4}"},
+]

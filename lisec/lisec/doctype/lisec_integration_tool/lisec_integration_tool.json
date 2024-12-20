@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-11 19:15:15.572885",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "response_from_lisec_system_section",
+  "lisec_response",
+  "lisec_erp_scheduling_section",
+  "from_date",
+  "column_break_5",
+  "to_date",
+  "column_break_7",
+  "schedule_date",
+  "column_break_9",
+  "order_id",
+  "lisce_history_background__job_section",
+  "lisec_get_past_order_statuscodeid",
+  "column_break_13",
+  "lisec_get_past_order_mins",
+  "no_bom_email_recipient"
+ ],
+ "fields": [
+  {
+   "fieldname": "response_from_lisec_system_section",
+   "fieldtype": "Section Break",
+   "label": "Response from LISEC System"
+  },
+  {
+   "fieldname": "lisec_response",
+   "fieldtype": "Long Text",
+   "label": "Lisec Response"
+  },
+  {
+   "fieldname": "lisec_erp_scheduling_section",
+   "fieldtype": "Section Break",
+   "label": "LISEC ERP Scheduling"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "schedule_date",
+   "fieldtype": "Data",
+   "label": "Schedule Date"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "order_id",
+   "fieldtype": "Data",
+   "label": "Order ID"
+  },
+  {
+   "fieldname": "lisce_history_background__job_section",
+   "fieldtype": "Section Break",
+   "label": "Lisce history Background  Job"
+  },
+  {
+   "fieldname": "lisec_get_past_order_statuscodeid",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Lisec Get Past Order StatusCodeId",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lisec_get_past_order_mins",
+   "fieldtype": "Int",
+   "label": "Lisec Get Past Order Mins ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "no_bom_email_recipient",
+   "fieldtype": "Data",
+   "label": "No BOM Email Recipient"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-05-30 14:24:41.493042",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec Integration Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

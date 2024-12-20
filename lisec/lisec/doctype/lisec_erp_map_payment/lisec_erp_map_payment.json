@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-11 18:59:31.325117",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lisec_field",
+  "column_break_2",
+  "erpnext_field",
+  "erp_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "lisec_field",
+   "fieldtype": "Link",
+   "label": "Lisec Field",
+   "options": "Lisec Payment Terms"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "erpnext_field",
+   "fieldtype": "Link",
+   "label": "ERPNext Field",
+   "options": "ERP Payment Terms"
+  },
+  {
+   "fieldname": "erp_field",
+   "fieldtype": "Data",
+   "label": "ERP Field"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-11 18:59:50.380751",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec ERP Map Payment",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "LL-.YYYY.MM.DD.-.########",
+ "creation": "2022-11-11 18:36:51.331476",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lisec_header_details_section",
+  "customer_id",
+  "project",
+  "column_break_4",
+  "customer_address",
+  "mr_status",
+  "column_break_7",
+  "lisec_reference_no",
+  "mr_no",
+  "column_break_10",
+  "creation_date",
+  "log_items_section",
+  "log_items",
+  "log_item_components_section",
+  "components"
+ ],
+ "fields": [
+  {
+   "fieldname": "lisec_header_details_section",
+   "fieldtype": "Section Break",
+   "label": "LISEC Header Details"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer ID"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Data",
+   "label": "Project"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Data",
+   "label": "Customer Address"
+  },
+  {
+   "fieldname": "mr_status",
+   "fieldtype": "Data",
+   "label": "MR Status"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lisec_reference_no",
+   "fieldtype": "Data",
+   "label": "Lisec Reference No"
+  },
+  {
+   "fieldname": "mr_no",
+   "fieldtype": "Data",
+   "label": "MR No"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "creation_date",
+   "fieldtype": "Data",
+   "label": "Creation Date"
+  },
+  {
+   "fieldname": "log_items_section",
+   "fieldtype": "Section Break",
+   "label": "Log Items"
+  },
+  {
+   "fieldname": "log_items",
+   "fieldtype": "Table",
+   "label": "Log Items",
+   "options": "Lisec Log Item"
+  },
+  {
+   "fieldname": "log_item_components_section",
+   "fieldtype": "Section Break",
+   "label": "Log Item Components"
+  },
+  {
+   "fieldname": "components",
+   "fieldtype": "Table",
+   "label": "Components",
+   "options": "Sales Order Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-06 13:02:16.919280",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec Logs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

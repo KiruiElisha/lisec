@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-29 15:08:11.711752",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lisec_configuration_section",
+  "lisec_ip_address",
+  "column_break_2",
+  "lisec_ip_port",
+  "column_break_xpvd",
+  "site",
+  "api_settings_section",
+  "api_access_token",
+  "api_refresh_token",
+  "api_user",
+  "column_break_fkwf",
+  "api_password_hash"
+ ],
+ "fields": [
+  {
+   "fieldname": "lisec_ip_address",
+   "fieldtype": "Data",
+   "label": "Lisec Ip Address"
+  },
+  {
+   "fieldname": "lisec_ip_port",
+   "fieldtype": "Data",
+   "label": "Lisec Ip Port"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lisec_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Lisec Configuration"
+  },
+  {
+   "fieldname": "column_break_xpvd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Data",
+   "label": "Site"
+  },
+  {
+   "fieldname": "api_settings_section",
+   "fieldtype": "Section Break",
+   "label": "API Settings"
+  },
+  {
+   "fieldname": "api_access_token",
+   "fieldtype": "Data",
+   "label": "Api Access Token"
+  },
+  {
+   "fieldname": "api_refresh_token",
+   "fieldtype": "Data",
+   "label": "API Refresh Token"
+  },
+  {
+   "fieldname": "api_user",
+   "fieldtype": "Data",
+   "label": "API User"
+  },
+  {
+   "fieldname": "column_break_fkwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "api_password_hash",
+   "fieldtype": "Small Text",
+   "label": "API Password Hash"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-06 10:23:34.129187",
+ "modified_by": "Administrator",
+ "module": "Lisec",
+ "name": "Lisec Integration Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
