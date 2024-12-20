@@ -1,3 +1,7 @@
+// Copyright (c) 2024, Ronoh and contributors
+// For license information, please see license.txt
+
+
 // Copyright (c) 2024, Codes Soft and contributors
 // For license information, please see license.txt
 

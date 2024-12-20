@@ -1,8 +1,9 @@
-# Copyright (c) 2024, Codes Soft and Contributors
+# Copyright (c) 2024, Ronoh and Contributors
 # See license.txt
 
 # import frappe
-import unittest
+from frappe.tests.utils import FrappeTestCase
 
-class TestLisecIntegrationSettings(unittest.TestCase):
+
+class TestLisecIntegrationSettings(FrappeTestCase):
 	pass

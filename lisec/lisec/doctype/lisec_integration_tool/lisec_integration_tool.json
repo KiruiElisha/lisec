@@ -103,7 +103,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-05-30 14:24:41.493042",
+ "modified": "2024-12-20 14:08:42.662948",
  "modified_by": "Administrator",
  "module": "Lisec",
  "name": "Lisec Integration Tool",
@@ -121,5 +121,6 @@
   }
  ],
  "sort_field": "modified",
- "sort_order": "DESC"
+ "sort_order": "DESC",
+ "states": []
 }

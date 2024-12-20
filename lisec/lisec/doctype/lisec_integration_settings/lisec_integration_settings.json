@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-04-29 15:08:11.711752",
+ "creation": "2024-12-20 13:42:37.552727",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -21,23 +21,23 @@
  ],
  "fields": [
   {
+   "fieldname": "lisec_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Lisec Configuration"
+  },
+  {
    "fieldname": "lisec_ip_address",
    "fieldtype": "Data",
    "label": "Lisec Ip Address"
-  },
-  {
-   "fieldname": "lisec_ip_port",
-   "fieldtype": "Data",
-   "label": "Lisec Ip Port"
   },
   {
    "fieldname": "column_break_2",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "lisec_configuration_section",
-   "fieldtype": "Section Break",
-   "label": "Lisec Configuration"
+   "fieldname": "lisec_ip_port",
+   "fieldtype": "Data",
+   "label": "Lisec Ip Port"
   },
   {
    "fieldname": "column_break_xpvd",
@@ -81,7 +81,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-12-06 10:23:34.129187",
+ "modified": "2024-12-20 13:45:31.963340",
  "modified_by": "Administrator",
  "module": "Lisec",
  "name": "Lisec Integration Settings",
