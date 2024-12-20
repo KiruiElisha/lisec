@@ -227,15 +227,5 @@ fixtures = [
                 "Lisec"
             ]
         ]
-    },
-    {
-        "dt": "Client Script",
-        "filters": [
-            [
-                "module",
-                "=",
-                "Lisec"
-            ]
-        ]
     }
 ]
