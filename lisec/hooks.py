@@ -229,3 +229,8 @@ fixtures = [
         ]
     }
 ]
+
+doctype_js = {
+    "Lisec Integration Tool": "public/js/lisec_integration_tool.js",
+    "Lisec Integration Settings": "public/js/lisec_integration_settings.js"
+}

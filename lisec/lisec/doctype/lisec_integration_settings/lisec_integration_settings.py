@@ -5,7 +5,6 @@ import frappe
 from frappe.model.document import Document
 import requests
 from urllib3.exceptions import InsecureRequestWarning
-import json
 
 class LisecIntegrationSettings(Document):
 	pass
